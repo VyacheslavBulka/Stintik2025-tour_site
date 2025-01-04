@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "Zelda DX TT (BRK) RUS by SubRaiN";
+    src: url("../fonts/pixelreegular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Razluka SP";
+    src: url("../fonts/RazlukaSP-Bold.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Resist Sans";
+    src: url("../fonts/ResistSansDisplay-Bold.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+}
+
+.container {
+    margin-bottom: 100px;
+    padding-top: 175px;
+    margin-left: 390px;
+}
+
+.bg-text {
+    color: #ffffff;
+    font-size: 100px;
+    font-family: "Razluka SP", serif;
+    font-weight: 700;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.bg-main {
+    margin-right: 100px;
+}
+
+.bg-tour-1 {
+    display: flex;
+    font-family: "Resist Sans", serif;
+    font-size: 29px;
+}
+
+h2 {
+    margin-bottom: 70px;
+    margin-left: 150px;
+    font-size: 67px;
+    font-family: "Zelda DX TT (BRK) RUS by SubRaiN", serif;
+    font-weight: 400;
+}
+
+
+.bg-gorod {
+    margin-left: 70px;
+}
+
+.bg-text-date {
+    display: flex;
+}
+
+.ticket {
+    transform: rotate(325deg);
+}
+
+.ticket-1 {
+    margin-left: 205px;
+}
+
+.ticket-2 {
+    margin-left: 100px;
+}
+
+.ticket-3 {
+    margin-left: 105px;
+}
+
+.ticket-4 {
+    margin-left: 40px;
+}
+
+img {
+    width: 50px;
+}
+
+.bg-vk {
+    margin-left: 20px;
+}
+
+.bg-tour-1 {
+    margin-bottom: 30px;
+}
+
+.bg-text-tour {
+    margin-bottom: 500px;
+}
+
+.bg {
+    background-image: url(../image/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1460px;
+    margin: 0;
+    padding: 0;
+}
+
+.twitch-img {
+    width: 40px;
+}
+
+.img-link {
+    width: 45px;
+}
+
+.gog-img {
+    width: 100px;
+}
+
+.tel-img {
+    margin-right: 30px;
+}
